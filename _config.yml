@@ -2,7 +2,7 @@
 title: 'JENS ROSY LIFE'
 description: 'site description, this will show in google searches'
 keyword: 'javascript, vuejs, nodejs'
-url: 'https://jensrosylife.github.io/blog/' # your host
+url: 'https://jensrosylife.github.io/' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
