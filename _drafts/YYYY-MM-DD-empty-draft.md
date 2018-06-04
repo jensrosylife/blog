@@ -1,0 +1,29 @@
+---
+layout: post
+date: YYYY-MM-DD 12:00:00 +0930
+title:
+subtitle:
+author: Jen
+cover: '/assets/img/floral-rose-watercolor-background.jpg'
+category: blog
+tags: ['interior design']
+---
+
+### Welcome
+
+This is a test Post. first paragraph
+
+This is a test Post. second paragraph
+
+> Indented text. quotes etc.
+
+This is a [link to the youtube website](https://youtube.com)
+
+web image
+![rose alt text](https://cdn.pixabay.com/photo/2016/09/03/23/18/rose-1642970_1280.jpg)
+
+image from asset folder
+![roses alt text]({{ "/assets/img/floral-rose-watercolor-background.jpg" | absolute_url }})
+
+embedded video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OoI57NeMwCc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
