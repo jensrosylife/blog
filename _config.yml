@@ -1,8 +1,8 @@
 # Site settings
-title: 'JENS ROSY LIFE'
+title: 'Jens Rosy Life'
 description: 'site description, this will show in google searches'
 keyword: 'javascript, vuejs, nodejs'
-url: 'https://jensrosylife.github.io/' # your host
+url: 'https://jensrosylife.com/' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
@@ -10,6 +10,7 @@ baseurl: ''
 # Navigation links
 nav:
   home: '/'
+  about: '/about.html'
   tags: '/tags.html'
 
 # Footer
@@ -77,4 +78,4 @@ RSS: false
 permalink: /:year/:month/:day/:title.html
 
 # Plugins
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jemoji]
