@@ -19,7 +19,7 @@
         float: none;
         margin: 0 auto;
     }
-    .g-sidebar, .search-card {
+    .g-sidebar, .search-card, .follow-card {
         display: none;
     }
     .pagination  {
@@ -229,10 +229,13 @@
                 .post-tags {
                     display: none;
                 }
-                .post-date {
+                /*.post-date {
                     float: left;
                     margin-left: 5px;
                 }
+                .post-words {
+                    float: left;
+                }*/
             }
         }
     }

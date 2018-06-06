@@ -69,9 +69,16 @@ description: interior design and lovely shit.
                 <ul id="sns-links" class="sns-links">
                     {% for s in site.sns %}
                     <li>
+                        {% if s[0] == 'email' %}
+                        <a href="mailto:{{ s[1] }}">
+                          <i class="iconfont icon-{{ s[0] }}"></i>
+                        </a>
+                        {% else %}
                         <a href="{{ s[1] }}" target="_blank">
                             <i class="iconfont icon-{{ s[0] }}"></i>
                         </a>
+                        {% endif %}
+
                     </li>
                     {% endfor %}
                 </ul>
@@ -97,6 +104,27 @@ description: interior design and lovely shit.
             <div class="search_result"></div>
         </div>
         {% endif %}
+
+        <div class="g-sidebar" style="margin-top: 16px;">
+            <section class="follow-card">
+              <!-- Begin MailChimp Signup Form -->
+              <div id="mc_embed_signup">
+                <form action="https://jensrosylife.us18.list-manage.com/subscribe/post?u=1f466e6d64fc0f50baa160417&amp;id=5c9a8ff7f1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll">
+	                   <label for="mce-EMAIL">Follow via email</label>
+                     <div class="follow-text">
+                         <p>enter your email to recieve notifications of new posts</p>
+                     </div>
+	                   <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1f466e6d64fc0f50baa160417_5c9a8ff7f1" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                  </div>
+                </form>
+              </div>
+              <!--End mc_embed_signup-->
+            </section>
+        </div>
 
     </aside>
 

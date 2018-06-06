@@ -116,6 +116,23 @@ $post-content-w: 720px;
     }
 }
 
+@mixin followCard {
+    .follow-title {
+        width: 100%;
+        font-size: 16px;
+        color: $color-f-primary;
+        font-weight: 500;
+        margin: 12px 0 6px;
+    }
+    .follow-text {
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            padding-bottom:5px;
+        }
+    }
+}
+
 @mixin timeStyle {
     display: inline-block;
     font-size: 14px;
