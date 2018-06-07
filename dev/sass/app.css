@@ -13,6 +13,10 @@
   font-family: "Merriweather-Light";
   src: url("../fonts/Merriweather-Light.ttf"); }
 
+@font-face {
+  font-family: "Rustico";
+  src: url("../fonts/Rustico-Regular.otf"); }
+
 /*** Base ***/
 html, body {
   height: 100%; }
@@ -881,6 +885,18 @@ a {
   margin-right: auto;
   width: 60%; }
 
+.thanks-title {
+  text-align: center; }
+  .thanks-title h1 {
+    font-family: "Rustico", -apple-system, Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    color: #FFAE9D;
+    font-size: 72px;
+    margin-top: 60px; }
+  .thanks-title p {
+    margin: 10px 20px 0 20px;
+    font-size: 24px;
+    color: #999; }
+
 #mc_embed_signup {
   background: #fff;
   padding-left: 0 !important;
@@ -1186,7 +1202,10 @@ a {
     font-size: 18px;
     letter-spacing: 1px;
     color: #888;
-    word-break: break-all; } }
+    word-break: break-all; }
+  .thanks-title h1 {
+    font-size: 60px;
+    margin-top: 80px; } }
 
 @media screen and (max-width: 376px) {
   .home-banner h2 {

@@ -913,6 +913,22 @@
     width: 60%;
 }
 
+.thanks-title {
+    text-align: center;
+    h1 {
+      font-family: 'Rustico', $fonts;
+      color: $color-rosy-peach;
+      font-size: 72px;
+      margin-top: 60px;
+    }
+    p {
+      margin: 10px 20px 0 20px;
+      font-size: 24px;
+      color: #999;
+    }
+
+}
+
 #mc_embed_signup {//mailchimp shit
   background:#fff;
   padding-left: 0!important;
@@ -928,7 +944,7 @@
   input[type=radio]{-webkit-appearance:radio;}
   input:focus {border-color:#333;}
   .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; letter-spacing:.03em; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto; transition: all 0.23s ease-in-out 0s;}
-  .button:hover {background-color:#FFAE9D;}
+  .button:hover {background-color:$color-rosy-peach;}
   .small-meta {font-size: 11px;}
   .nowrap {white-space:nowrap;}
   .clear {clear:none; display:inline;}
