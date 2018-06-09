@@ -1,6 +1,6 @@
 ---
 layout: default
-home-title: JENS ROSY LIFE
+home-title: Jens Rosy Life
 header-img: "assets/img/floral-rose-watercolor-background.jpg"
 description: interior design and lovely shit.
 ---
@@ -8,7 +8,7 @@ description: interior design and lovely shit.
 {% include header.html %}
 
 <div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
-    <h2>{{ page.home-title | upcase }}</h2>
+    <h2>{{ page.home-title }}</h2>
     <h3>{{ page.description }}</h3>
     {% if page.header-img %}
     <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="beautiful watercolor roses">

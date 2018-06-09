@@ -17,6 +17,22 @@
   font-family: "Rustico";
   src: url("../fonts/Rustico-Regular.otf"); }
 
+@font-face {
+  font-family: "Salmela";
+  src: url("../fonts/Salmela.ttf"); }
+
+@font-face {
+  font-family: "Bosk";
+  src: url("../fonts/Bosk.otf"); }
+
+@font-face {
+  font-family: "MrGrieves";
+  src: url("../fonts/MrGrieves-Regular.otf"); }
+
+@font-face {
+  font-family: "TuesdayNight";
+  src: url("../fonts/TuesdayNight-Regular.otf"); }
+
 /*** Base ***/
 html, body {
   height: 100%; }
@@ -89,16 +105,15 @@ a {
     right: 0;
     padding: 8px;
     font-size: 28px;
-    color: #666;
+    color: #999;
     opacity: .8;
     border-radius: 3px; }
     .g-header .icon-menu:active {
       background-color: rgba(255, 255, 255, 0.2); }
   .g-header .g-nav {
-    float: right;
-    margin-right: 2%; }
+    text-align: center; }
     .g-header .g-nav > ul > li {
-      float: left;
+      display: inline-block;
       height: 26px;
       line-height: 26px;
       text-transform: uppercase;
@@ -113,11 +128,11 @@ a {
         padding: 0 12px;
         opacity: .7; }
         .g-header .g-nav > ul > li > a:hover {
-          opacity: 1; }
+          color: #FFAE9D; }
   .g-header .nav-default a:hover {
     color: #1494FB !important; }
   .g-header .nav-pink a:hover {
-    color: #FC6794 !important; }
+    color: #FFAE9D !important; }
 
 .headerUp {
   top: -65px; }
@@ -143,16 +158,16 @@ a {
   .home-banner h2 {
     padding-top: 190px;
     line-height: 38px;
-    font-size: 42px;
-    font-family: 'Arial', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
-    font-weight: bold;
+    font-size: 72px;
+    font-family: 'Rustico';
+    font-weight: normal;
     letter-spacing: 2px;
     line-height: 52px; }
   .home-banner h3 {
     font-size: 20px;
     font-weight: normal;
     letter-spacing: 5px;
-    margin-top: 8px; }
+    margin-top: 20px; }
   .home-banner .header-img {
     display: block;
     position: absolute;
@@ -168,16 +183,16 @@ a {
   background: linear-gradient(100deg, #3CD5FF, #007AFF); }
 
 .banner-theme-pink {
-  background: -webkit-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: -o-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: -moz-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: linear-gradient(100deg, #FFCE69, #FA709A); }
+  background: -webkit-linear-gradient(0deg, #FFCE69, #FFAE9D);
+  background: -o-linear-gradient(0deg, #FFCE69, #FFAE9D);
+  background: -moz-linear-gradient(0deg, #FFCE69, #FFAE9D);
+  background: linear-gradient(100deg, #FFCE69, #FFAE9D); }
 
 .themeColor-default {
   background-color: #1494FB; }
 
 .themeColor-pink {
-  background-color: #FC6794; }
+  background-color: #FFAE9D; }
 
 .home-content {
   margin: 40px auto 60px; }
@@ -240,8 +255,11 @@ a {
         line-height: 26px; }
       .article-list .article-item .post-preview .about-title {
         text-align: center;
-        font-size: 18px;
-        line-height: 26px; }
+        font-family: "Rustico", -apple-system, Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+        color: #FFAE9D;
+        font-size: 72px;
+        margin-top: 20px;
+        font-weight: normal; }
       .article-list .article-item .post-preview .about-text {
         text-align: center;
         margin-top: 8px;
@@ -495,7 +513,7 @@ a {
     .g-footer section a {
       color: #A6ABB2; }
       .g-footer section a:hover {
-        color: #83888F; }
+        color: #FFAE9D; }
 
 .post-header, .markdown-body, .post-wrapper, .author-detail, .social-share-wrapper {
   margin: 0 auto; }
@@ -581,7 +599,7 @@ a {
   background-color: #1494FB; }
 
 .bgcolor-pink {
-  background-color: #FC6794; }
+  background-color: #FFAE9D; }
 
 .post-no-cover {
   height: 360px; }
@@ -891,7 +909,8 @@ a {
     font-family: "Rustico", -apple-system, Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     color: #FFAE9D;
     font-size: 72px;
-    margin-top: 60px; }
+    margin-top: 60px;
+    font-weight: normal; }
   .thanks-title p {
     margin: 10px 20px 0 20px;
     font-size: 24px;
@@ -1033,7 +1052,7 @@ a {
       left: -40px; }
     .home-banner h2 {
       padding-top: 70px;
-      font-size: 28px;
+      font-size: 60px;
       line-height: 48px; }
     .home-banner h3 {
       margin-top: 2px;
@@ -1054,6 +1073,7 @@ a {
     .g-header .icon-menu {
       display: block; }
     .g-header .g-nav {
+      float: right;
       position: relative;
       top: 48px;
       right: 1%;
@@ -1121,7 +1141,7 @@ a {
 
 @media screen and (max-width: 500px) {
   .home-banner h2 {
-    font-size: 26px;
+    font-size: 36px;
     line-height: 38px; }
   .home-banner h3 {
     margin-top: 4px;
@@ -1209,7 +1229,7 @@ a {
 
 @media screen and (max-width: 376px) {
   .home-banner h2 {
-    font-size: 26px;
+    font-size: 36px;
     line-height: 38px; }
   .home-banner h3 {
     margin-top: 0px;

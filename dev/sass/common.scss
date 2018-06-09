@@ -40,7 +40,7 @@
         right: 0;
         padding: 8px;
         font-size: 28px;
-        color: #666;
+        color: #999;
         opacity: .8;
         border-radius: 3px;
         &:active {
@@ -49,10 +49,12 @@
     }
 
     .g-nav {
-        float: right;
-        margin-right: 2%;
+        //float: right;
+        //margin-right: 2%;
+        text-align: center;
         &>ul>li{
-            float: left;
+            //float: left;
+            display: inline-block;
             height: $g-header-h;
             line-height: $g-header-h;
             text-transform: uppercase;
@@ -68,7 +70,7 @@
                 padding: 0 12px;
                 opacity: .7;
                 &:hover {
-                    opacity: 1;
+                    color: $color-rosy-peach;
                 }
             }
         }
@@ -81,7 +83,7 @@
     }
     .nav-pink {
         a:hover {
-            color: $color-theme-pink !important;
+            color: $color-rosy-peach !important;
         }
     }
 }
@@ -113,9 +115,9 @@
     h2 {
         padding-top: 190px;
         line-height: 38px;
-        font-size: 42px;
-        font-family: 'Arial', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
-        font-weight: bold;
+        font-size: 72px;
+        font-family: 'Rustico';
+        font-weight: normal;
         letter-spacing: 2px;
         line-height: 52px;
     }
@@ -123,7 +125,7 @@
         font-size: 20px;
         font-weight: normal;
         letter-spacing: 5px;
-        margin-top: 8px;
+        margin-top: 20px;
     }
     .header-img {
         display: block;
@@ -142,17 +144,17 @@
     background: linear-gradient(100deg, #3CD5FF, #007AFF);
 }
 .banner-theme-pink {
-    background: -webkit-linear-gradient(0deg, #FFCE69, #FA709A);
-    background: -o-linear-gradient(0deg, #FFCE69, #FA709A);
-    background: -moz-linear-gradient(0deg, #FFCE69, #FA709A);
-    background: linear-gradient(100deg, #FFCE69, #FA709A);
+    background: -webkit-linear-gradient(0deg, #FFCE69, #FFAE9D);
+    background: -o-linear-gradient(0deg, #FFCE69, #FFAE9D);
+    background: -moz-linear-gradient(0deg, #FFCE69, #FFAE9D);
+    background: linear-gradient(100deg, #FFCE69, #FFAE9D);
 }
 
 .themeColor-default {
     background-color: $color-theme-default;
 }
 .themeColor-pink {
-    background-color: $color-theme-pink;
+    background-color: $color-rosy-peach;
 }
 
 .home-content {
@@ -215,8 +217,11 @@
             }
             .about-title {
                 text-align: center;
-                font-size: 18px;
-                line-height: 26px;
+                font-family: 'Rustico', $fonts;
+                color: $color-rosy-peach;
+                font-size: 72px;
+                margin-top: 20px;
+                font-weight: normal;
             }
             .about-text {
                 text-align: center;
@@ -411,7 +416,7 @@
         a {
             color: #A6ABB2;
             &:hover {
-                color: #83888F;
+                color: $color-rosy-peach;
             }
 
         }
@@ -499,7 +504,7 @@
     background-color: $color-theme-default;
 }
 .bgcolor-pink {
-    background-color: $color-theme-pink;
+    background-color: $color-rosy-peach;
 }
 
 .post-no-cover {
@@ -920,6 +925,7 @@
       color: $color-rosy-peach;
       font-size: 72px;
       margin-top: 60px;
+      font-weight: normal;
     }
     p {
       margin: 10px 20px 0 20px;
